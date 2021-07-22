@@ -1,0 +1,1 @@
+SELECT AVG(2021 - YEAR(birthday_at)) AS average_age FROM users;

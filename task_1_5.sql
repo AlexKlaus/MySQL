@@ -1,0 +1,8 @@
+SELECT * FROM catalogs 
+WHERE id IN (5, 1, 2)
+ORDER BY (
+	CASE id
+		WHEN 5 THEN 0
+		WHEN 1 THEN 1
+		WHEN 2 THEN 2
+		END);
