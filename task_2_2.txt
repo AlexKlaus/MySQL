@@ -1,0 +1,8 @@
+127.0.0.1:6379> set alex alex@mail.com
+OK
+127.0.0.1:6379> get alex
+"alex@mail.com"
+127.0.0.1:6379> set alex@mil.com alex
+OK
+127.0.0.1:6379> get alex@mil.com
+"alex"
